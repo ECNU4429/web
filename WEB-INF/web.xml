@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+    <welcome-file-list>
+        <welcome-file>main.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name> userlogServlet </servlet-name>
+        <servlet-class>Servlet.userLogInServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> userlogServlet </servlet-name>
+        <url-pattern>/userlog</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name> testServlet </servlet-name>
+        <servlet-class>Servlet.testServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> testServlet </servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name> userRegist </servlet-name>
+        <servlet-class>Servlet.userRegistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> userRegist </servlet-name>
+        <url-pattern>/userRegist</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name> search </servlet-name>
+        <servlet-class>Servlet.searchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> search </servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name> searchRele </servlet-name>
+        <servlet-class>Servlet.relaQuestionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> searchRele </servlet-name>
+        <url-pattern>/searchRele</url-pattern>
+    </servlet-mapping>
+
+</web-app>

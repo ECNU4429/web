@@ -1,0 +1,93 @@
+﻿body{
+	padding: 0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#header{
+	background-color: black;
+	padding: 30px 20%;
+	color: white;
+	/* [disabled]font-size: 30px; */
+}
+#header a{
+	color:white;
+	text-decoration:none;
+}
+#logo{
+	font-size:24px;
+}
+#log_reg{
+	float:right;
+}
+#have_login{
+	display:none;
+}
+#search_wrap{
+	float:right;
+}
+
+#container{
+	margin:0px 20%;
+	padding:20px 10px;
+	background-color:#EEE;/*可以改成浅灰，更加简单*/
+	min-height: 600px;
+}
+#footer{
+	background-color: black;
+	padding:5px;
+	
+	font-size:11px;
+	color:white;
+	text-align: center;
+}
+.white_btn{
+	background-color:#FFF;
+	border:0px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-radius:5px;
+	width:100px;
+}
+.black_btn{
+	margin:5px;
+	background-color:#000;
+	color:#FFF;
+	border:0px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-radius:5px;
+	width:100px;
+}
+
+img{
+	margin:0 5px;
+	boder:none;
+}
+
+
+/*超链接样式*/
+
+#logo a{
+	color:white;
+	text-decoration:none;
+	font-size:24px;
+}
+
+#log_reg,#have_login a{
+	color:white;
+	text-decoration:none;
+}
+
+#log_reg a:hover{
+	text-decoration:underline;
+}
+#have_login a:hover{
+	text-decoration:underline;
+}
+
+#container a{
+	text-decoration: none;
+	color: black;
+}
+#container a:hover{
+	text-decoration: underline;
+}
+

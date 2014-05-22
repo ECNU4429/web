@@ -1,0 +1,51 @@
+﻿body
+{
+	padding:0px;
+	margin:0px;
+	background:url(../img/5.jpg);
+	background-position:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#header
+{
+	height:300px;
+	color:white;
+}
+
+#container
+{
+	margin:0px;
+	padding-top:100px;
+	text-align: center;
+}
+img{
+	padding:1px 5px;
+}
+#search_box{
+	margin-left:3%;
+}
+#log_reg{
+	color:white;
+}
+#have_login{
+	color:white;
+	display:none;
+}
+
+/*超链接*/
+#log_reg a{
+	color:white;
+	text-decoration:none;
+}
+#have_login a{
+	color:white;
+	text-decoration:none;
+}
+
+#log_reg a:hover{
+	text-decoration:underline;
+}
+#have_login a:hover{
+	text-decoration:underline;
+}
